@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		DF879F27226CC9700090BFB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF879F26226CC9700090BFB2 /* AppDelegate.swift */; };
-		DF879F29226CC9700090BFB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF879F28226CC9700090BFB2 /* ViewController.swift */; };
 		DF879F2C226CC9700090BFB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF879F2A226CC9700090BFB2 /* Main.storyboard */; };
 		DF879F2E226CC9710090BFB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF879F2D226CC9710090BFB2 /* Assets.xcassets */; };
 		DF879F31226CC9710090BFB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF879F2F226CC9710090BFB2 /* LaunchScreen.storyboard */; };
+		DF879F3A226CC9B50090BFB2 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF879F39226CC9B50090BFB2 /* ImageViewController.swift */; };
+		DF879F3C226CD0DC0090BFB2 /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF879F3B226CD0DC0090BFB2 /* DemoURLs.swift */; };
+		DF879F3E226CD1E10090BFB2 /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF879F3D226CD1E10090BFB2 /* CassiniViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DF879F23226CC9700090BFB2 /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF879F26226CC9700090BFB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF879F28226CC9700090BFB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DF879F2B226CC9700090BFB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF879F2D226CC9710090BFB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF879F30226CC9710090BFB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF879F32226CC9710090BFB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF879F39226CC9B50090BFB2 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		DF879F3B226CD0DC0090BFB2 /* DemoURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoURLs.swift; sourceTree = "<group>"; };
+		DF879F3D226CD1E10090BFB2 /* CassiniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		DF879F25226CC9700090BFB2 /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				DF879F26226CC9700090BFB2 /* AppDelegate.swift */,
-				DF879F28226CC9700090BFB2 /* ViewController.swift */,
+				DF879F39226CC9B50090BFB2 /* ImageViewController.swift */,
+				DF879F3B226CD0DC0090BFB2 /* DemoURLs.swift */,
 				DF879F2A226CC9700090BFB2 /* Main.storyboard */,
-				DF879F2D226CC9710090BFB2 /* Assets.xcassets */,
-				DF879F2F226CC9710090BFB2 /* LaunchScreen.storyboard */,
+				DF879F3D226CD1E10090BFB2 /* CassiniViewController.swift */,
 				DF879F32226CC9710090BFB2 /* Info.plist */,
+				DF879F38226CC99C0090BFB2 /* Supporting Files */,
 			);
 			path = Cassini;
+			sourceTree = "<group>";
+		};
+		DF879F38226CC99C0090BFB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF879F26226CC9700090BFB2 /* AppDelegate.swift */,
+				DF879F2D226CC9710090BFB2 /* Assets.xcassets */,
+				DF879F2F226CC9710090BFB2 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF879F29226CC9700090BFB2 /* ViewController.swift in Sources */,
+				DF879F3A226CC9B50090BFB2 /* ImageViewController.swift in Sources */,
 				DF879F27226CC9700090BFB2 /* AppDelegate.swift in Sources */,
+				DF879F3C226CD0DC0090BFB2 /* DemoURLs.swift in Sources */,
+				DF879F3E226CD1E10090BFB2 /* CassiniViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
